@@ -1,0 +1,25 @@
+name: crypto-charts
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    name: "Deploy front-end"
+    
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v2.3.3
+
+      - name: install deps
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: install
+
+      - name: Deploy to Skynet
+        uses: SkynetLabs/deploy-to-skynet-action@v2
+        with:
+          upload-dir: build
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          registry-seed: ${{ secrets.REGISTRY_SEED || '' }}

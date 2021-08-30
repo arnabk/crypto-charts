@@ -1,0 +1,7 @@
+#header-toolbar-symbol-search {
+  width: 200px;
+}
+
+#header-toolbar-symbol-search > div {
+  width: 100%;
+}
