@@ -14,7 +14,7 @@ const ChartContainer: React.FC<{}> = (props) => {
     if (window.TradingView) {
       // window.tvWidget is required by TV framework
       window.tvWidget = new window.TradingView.widget({
-        symbol: 'cryETHUSD', // default symbol
+        symbol: 'cryBTCUSD', // default symbol
         interval: '5', // default interval
         fullscreen: true, // displays the chart in the fullscreen mode
         container: 'chart_container',

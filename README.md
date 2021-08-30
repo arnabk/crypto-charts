@@ -7,7 +7,7 @@ Charting application using [TradingView charting library](https://www.tradingvie
 ### Skylink
 
 ```
-AQCvA13zF-ATW0-hZOalJxVuFSOh3PaSUut8Nxg4lBqUcg
+DABFrk_wi4Mua3Ryuw26dGnlF-d9oy8bgrTrsjGw7GFhWA
 ```
 
 ### Skynet portal URL
