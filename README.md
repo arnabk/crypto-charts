@@ -4,13 +4,7 @@
 ### Details
 Crypto charting application using [TradingView charting library](https://www.tradingview.com/) and [Binary/Deriv API](https://developers.binary.com/)
 
-### Skylink
-
-```
-DABFrk_wi4Mua3Ryuw26dGnlF-d9oy8bgrTrsjGw7GFhWA
-```
-
-### Skynet portal URL
+### Portal URL
 
 ```
 https://1g04bbifu25o6bjbehpbm3dqehkua5v7fmhiu6s2mjlr4cdgthgm2m0.siasky.net
