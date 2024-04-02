@@ -10,19 +10,19 @@ jobs:
     
     steps:
       - name: Setup repo
-        uses: actions/checkout@v2.3.3
+        uses: actions/checkout@v3
 
       - name: install deps
-        uses: borales/actions-yarn@v2.3.0
+        uses: borales/actions-yarn@v4
         with:
           cmd: install
 
       - name: build
-        uses: borales/actions-yarn@v2.3.0
+        uses: borales/actions-yarn@v4
         with:
           cmd: build
 
-      - name: Deploy to Skynet
+      - name: Deploy to surge
         uses: SkynetLabs/deploy-to-skynet-action@v2
         with:
           upload-dir: build
